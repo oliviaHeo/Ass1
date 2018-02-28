@@ -1,0 +1,29 @@
+/*Style sheet for blog.html*/
+@import url("style.css");
+
+div.backgroundimage{
+  background-image: url(pictures/8.jpg);
+  background-repeat:no-repeat;
+  background-size: 90%;
+  font-size:28px;
+  font-family: times;
+  width:85%;
+  height:600px;
+  position:absolute;
+  top:110px;
+  left:320px;
+  text-align: left;
+  padding:30px;
+}
+#bloglist>li{
+  width: 40%;
+  list-style-type: disc;
+  display: list-item;  
+}
+.youtobe iframe:focus {
+    outline: none;
+}
+
+.youtobe iframe[seamless] {
+    display: block;
+}

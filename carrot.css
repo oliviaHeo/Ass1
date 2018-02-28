@@ -1,0 +1,19 @@
+/*Style sheet for Carrot.html*/
+@import url("style.css");
+
+h3{
+  text-align: left;
+
+}
+
+.contect{
+  text-align:left;
+}
+
+header {
+  background-image:url(pictures/carrots1.jpg);
+}
+
+.animated {
+  background-color:#FB8344;
+}

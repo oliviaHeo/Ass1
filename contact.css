@@ -1,0 +1,46 @@
+/*Style sheet for contact.html*/
+@import url("style.css");
+
+body {font-family: Arial, Helvetica, sans-serif;}
+header {
+  background-image:;
+  background-size:100%;
+  background-repeat:no-repeat; 
+  padding:20px;
+  padding-right:20px;
+  color:#fff;  
+}
+.icon{
+  fa fa-spinner fa-spin;
+  
+  
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #8E8E8D;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 23px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
