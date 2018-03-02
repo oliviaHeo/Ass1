@@ -1,18 +1,18 @@
 /*Style sheet for arugula.html*/
 @import url("style.css");
 
-h3{
+h3 {
   text-align: left;
 }
 
 .contect{
-  text-align:left;
+  text-align: left;
 }
 
 header {
-  background-image:url(pictures/Arugula2.jpg);
+  background-image: url(pictures/Arugula2.jpg);
 }
 
 .animated {
-  background-color:#f4c330;
+  background-color: #f4c330;
 }

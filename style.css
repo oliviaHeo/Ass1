@@ -1,12 +1,12 @@
 /*BASIC GLOBAL HTML STYLES*/
 html {
-  font-size:17px;
-  font-family:Imaginary, arial, vardana;
+  font-size: 17px;
+  font-family: Imaginary, arial, vardana;
 }
 
 body {
   position: relative;
-  background-color:#fff;
+  background-color: #fff;
 }
 
 /*END BASIC GLOBAL HTML STYLES*/
@@ -14,48 +14,48 @@ body {
 /* STYLING LINKS */
 
 a:link {
-  color:#727371;
-  text-decoration:none;
+  color: #727371;
+  text-decoration: none;
 }
 
 a:visited {
-  color:white;
+  color: white;
 }
 
 a:hover {
-  color:black;
-  font-weight:bold;
+  color: black;
+  font-weight: bold;
 }
 
 a:active {
-  color:green;
+  color: green;
 }
 
 /*END STYLING LINKS*/
 
 /* NAV MENU STYLES */
 ul {
-  list-style-type:none;
-  font-family:cursive;
+  list-style-type: none;
+  font-family: cursive;
 }
 
 nav {
-  background:linear-gradient(10deg,#91BA30,#d9e5b3);
-  display:inline-block;
-  width:100%;
-  overflow:hidden;
-  letter-spacing:2px;
+  background: linear-gradient(10deg,#91BA30,#d9e5b3);
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  letter-spacing: 2px;
 }
 
 ul li {
-  font-weight:bold;
-  display:inline;
-  line-height:200%;
-  letter-spacing:1.75px;
-  font-family:times;
+  font-weight: bold;
+  display: inline;
+  line-height: 200%;
+  letter-spacing: 1.75px;
+  font-family: times;
   font-size: 18px;
-  width:130px;
-  padding:15px;
+  width: 130px;
+  padding: 15px;
 
 }
 
@@ -64,94 +64,96 @@ ul li {
 /*STYLES FOR SECTION*/
 
 main {
-  display:inline-block;
-  width:100%;
+  display: inline-block;
+  width: 100%;
 }
 
 header {
-  background-size:100%;
-  background-repeat:no-repeat; 
-  padding:20px;
-  color:#fff;  
+  background-size: 100%;
+  background-repeat: no-repeat; 
+  padding: 20px;
+  color: #fff;  
 }
 
 #intro {
-  top:100%;
-  font-size:70px;
-  font-family:times;
-  padding-top:70px;
-  padding-bottom:70px;
+  top: 100%;
+  font-size: 70px;
+  font-family: times;
+  padding-top: 70px;
+  padding-bottom: 70px;
   line-height: 100%;
-  border:20px;
+  border: 20px;
   border-style: solid;
-  width:400px;
-  position:relative;
-  left:40%;  
+  width: 400px;
+  position: relative;
+  left: 40%;  
 }
-#backgroundimage{
-  background-image:url("pictures/leaves.jpeg");
-  position:absolute;
-  top:75px;
-  left:252px;    
-  width:87%;
-  height:100%;
+
+#backgroundimage {
+  background-image: url("pictures/leaves.jpeg");
+  position: absolute;
+  top: 75px;
+  left: 252px;    
+  width: 87%;
+  height: 100%;
 }
+
 section {
-  background-color:#fefefe;
-  float:right;
-  width:80%;
-  padding:30px;
-  line-height:30px;
-  text-align:center;
+  background-color: #fefefe;
+  float: right;
+  width: 80%;
+  padding: 30px;
+  line-height: 30px;
+  text-align: center;
 }
 
 time, 
 author {
   background-color: black;
-  font-weight:bold;
-  color:#fff;
+  font-weight: bold;
+  color: #fff;
 }
 
 author {
-  border-right:2px solid #555;
-  padding-right:5px;
+  border-right: 2px solid #555;
+  padding-right: 5px;
 }
 
 .article-footer {
-  background-image:url(pictures/wooden.jpeg);
-  padding:0px 30px 0px 20px;
+  background-image: url(pictures/wooden.jpeg);
+  padding: 0px 30px 0px 20px;
 }
 
 .link-nav {
   display:inline-block;
   font-size: 20px;
-  padding:0px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
 }
 
 .animated {
-  background-color:#53743D; 
+  background-color: #53743D; 
   letter-spacing: 2px;
-  font-size:40px;
-  line-height:50px;
-  color:#fff;
-  animation-duration:3s;
+  font-size: 40px;
+  line-height: 50px;
+  color: #fff;
+  animation-duration: 3s;
   animation-name:slidein;
 }
 
 @keyframes slidein {
   0% {
-    margin-left:100%;
-    width:300%;
+    margin-left: 100%;
+    width: 300%;
   }
 
   50% {
-    color:#727371;
-    font-family:times;
+    color: #727371;
+    font-family: times;
     line-height: 2px;
   }
 
   75% {
-    font-size:600%;
+    font-size: 600%;
     margin-left: 25%;
     width: 150%;
   }
@@ -166,13 +168,13 @@ author {
 /*STYLING SIDEBAR NAVIGATION*/
 
 aside {
-  float:left;
-  width:200px;
-  height:800px;
+  float: left;
+  width: 200px;
+  height: 800px;
   background: linear-gradient(#91BA30,#d9e5b3,#fff);
-  color:white;
-  padding:20px;
-  opacity:0.8;
+  color: white;
+  padding: 20px;
+  opacity: 0.8;
 }
 
 /*END SIDEBAR NAVIGATION STYLES*/
@@ -180,10 +182,10 @@ aside {
 /*FOOTER SECTION STYLES*/
 
 footer {
-  background-color:#8F8681;
-  color:#fff;
-  padding:15px;
-  text-align:center;
+  background-color: #8F8681;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
 }
 
 .bottom {

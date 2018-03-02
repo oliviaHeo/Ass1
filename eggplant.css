@@ -1,19 +1,19 @@
 /*Style sheet for eggplant.html*/
 @import url("style.css");
 
-h3{
+h3 {
   text-align: left;
 }
 
-.contect{
-  text-align:left;
+.contect {
+  text-align: left;
 }
 
 header {
-  background-image:url(pictures/Eggplant.jpg);
+  background-image: url(pictures/Eggplant.jpg);
 }
 
 .animated {
-  background-color:#2C121B;
+  background-color: #2C121B;
 }
 
