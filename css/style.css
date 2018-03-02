@@ -14,12 +14,12 @@ body {
 /* STYLING LINKS */
 
 a:link {
-  color: #727371;
+  color: #fff;
   text-decoration: none;
 }
 
 a:visited {
-  color: white;
+  color: #fff;
 }
 
 a:hover {
@@ -28,7 +28,7 @@ a:hover {
 }
 
 a:active {
-  color: green;
+  color: #91BA30;
 }
 
 /*END STYLING LINKS*/
