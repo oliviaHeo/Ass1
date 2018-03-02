@@ -9,24 +9,6 @@ body {
   background-color:#fff;
 }
 
-/*#intro {
-  top:200%;
-  left: 10px;
-  font-size:24px;
-  line-height:3;
-  font-family:times;
-  padding-top: 70px;
-}
-#backgroundimage{
-  content: url(pictures/leaves.jpeg);
-  opacity: 0.;
-  position:absolute;
-  top:75px;
-  left:252px;    
-  width: 87%;
-  height: 230%;
-  }
-
 /*END BASIC GLOBAL HTML STYLES*/
 
 /* STYLING LINKS */
@@ -39,7 +21,6 @@ a:link {
 a:visited {
   color:white;
 }
-
 
 a:hover {
   color:black;
@@ -59,7 +40,7 @@ ul {
 }
 
 nav {
-  background:linear-gradient(90deg,#9ebf35,#d9e5b3);
+  background:linear-gradient(10deg,#91BA30,#d9e5b3);
   display:inline-block;
   width:100%;
   overflow:hidden;
@@ -91,34 +72,30 @@ header {
   background-size:100%;
   background-repeat:no-repeat; 
   padding:20px;
-  padding-right:20px;
   color:#fff;  
 }
 
 #intro {
   top:100%;
   font-size:70px;
-  line-height:2;
   font-family:times;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top:70px;
+  padding-bottom:70px;
   line-height: 100%;
-  border: 20px;
+  border:20px;
   border-style: solid;
-  width: 400px;
-  position: relative;
-  left: 40%;
-  
+  width:400px;
+  position:relative;
+  left:40%;  
 }
 #backgroundimage{
-  background-image: url("pictures/leaves.jpeg");
-/*  content: url(pictures/leaves.jpeg);*/
+  background-image:url("pictures/leaves.jpeg");
   position:absolute;
   top:75px;
   left:252px;    
-  width: 87%;
-  height: 230%;
-  }
+  width:87%;
+  height:100%;
+}
 section {
   background-color:#fefefe;
   float:right;
@@ -141,7 +118,6 @@ author {
 }
 
 .article-footer {
-  background-color:#fff!important;
   background-image:url(pictures/wooden.jpeg);
   padding:0px 30px 0px 20px;
 }
@@ -192,7 +168,8 @@ author {
 aside {
   float:left;
   width:200px;
-  background-color:#9ebf35;
+  height:800px;
+  background: linear-gradient(#91BA30,#d9e5b3,#fff);
   color:white;
   padding:20px;
   opacity:0.8;
