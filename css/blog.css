@@ -2,7 +2,7 @@
 @import url("style.css");
 
 div.backgroundimage {
-  background-image: url(pictures/blogbg.jpg);
+  background-image: url(../pictures/blogbg.jpg);
   background-repeat: no-repeat;
   background-size: 90%;
   width: 85%;
