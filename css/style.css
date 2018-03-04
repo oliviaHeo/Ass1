@@ -56,7 +56,6 @@ ul li {
   font-size: 18px;
   width: 130px;
   padding: 15px;
-
 }
 
 /* END NAV MENU STYLES*/
@@ -89,8 +88,8 @@ header {
   left: 40%;  
 }
 
-#backgroundimage {
-  background-image: url("../pictures/leaves.jpeg");
+.backgroundimage {
+  background-image:  url("../pictures/leaves.jpeg");
   position: absolute;
   top: 75px;
   left: 252px;    

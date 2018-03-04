@@ -1,16 +1,10 @@
 /*Style sheet for blog.html*/
 @import url("style.css");
 
-div.backgroundimage {
+.backgroundimage {
   background-image: url(../pictures/blogbg.jpg);
   background-repeat: no-repeat;
   background-size: 90%;
-  width: 85%;
-  position: absolute;
-  top: 75px;
-  left: 290px;
-  text-align: left;
-  padding: 30px;
 }
 
 #bloglist li {
@@ -18,7 +12,8 @@ div.backgroundimage {
   font-family: times;
   width: 40%;
   list-style-type: disc;
-  display: list-item;  
+  display: list-item; 
+  opacity:inherit;
 }
 
 .youtube iframe:focus {
